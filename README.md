@@ -1,2 +1,3 @@
-# digital-kampus-devops
-Simulasi pipeline CI/CD dan kolaborasi DevOps untuk aplikasi digital kampus (UTS)
+## Perbaikan KRS lambat
+
+Menambahkan status cache aktif pada aplikasi dan unit test untuk memverifikasinya.
