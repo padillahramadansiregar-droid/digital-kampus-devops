@@ -1,6 +1,6 @@
 const http = require("http");
 
-const getStatus = () => ({ app: "Digital Kampus", status: "ok" });
+const getStatus = () => ({ app: "Digital Kampus", status: "ok", cache: "aktif" });
 
 if (require.main === module) {
   http
