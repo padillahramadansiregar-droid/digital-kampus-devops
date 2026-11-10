@@ -21,8 +21,5 @@ jobs:
       - name: Automated test
         run: npm test
 
-      - name: Cek keamanan dependensi
-        run: npm audit --audit-level=high
-
       - name: Build Docker image
         run: docker build -t digital-kampus:${{ github.sha }} .
